@@ -1,0 +1,453 @@
+
+
+<html>
+
+<head>
+
+<title>E-Commerce Website </title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+
+>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<script
+
+src="https://"stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.js></script>
+
+</head>
+
+<body>
+
+<div class="top-nav-bar">
+
+<div class="search-box">
+
+ <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+
+ <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+
+<img src="images/orange-logo.png" class="logo">
+
+<input type="text" class="form-control">
+
+<span class="input-group-text"><i class="fa fa-search"></i></span>
+
+</div>
+
+<div class="menu-bar">
+
+<ul>
+
+<li><a href="a">Cart</a></li>
+
+<li><a href="a">Sign Up</a></li>
+
+<li><a href="a">Log In</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<section class="header">
+
+<div class="side-menu" id="side-menu">
+
+<ul>
+
+<li>On Sale<i class="fa fa-angle-right"></i>
+
+            <ul>
+
+            <li>Sub Menu-1</li>
+
+            <li>Sub Menu-1</li>
+
+            </ul>
+
+         
+
+        </li>
+
+<li>Mobiles<i class="fa fa-angle-right"></i>
+
+              <ul>
+
+            <li>Sub Menu-2</li>
+
+            <li>Sub Menu-2</li>
+
+             </ul>
+
+            </li>
+
+  <li>Computers<i class="fa fa-angle-right"></i>
+
+ <ul>
+
+              <li>Sub Menu-3</li>
+
+            <li>Sub Menu-3</li>
+
+             </ul>
+
+             <li>Home<i class="fa fa-angle-right"></i></li>
+
+              <li>Fashion<i class="fa fa-angle-right"></i></li>
+
+              <li>Beauty<i class="fa fa-angle-right"></i></li>
+
+              <li>Gold<i class="fa fa-angle-right"></i></li>
+
+         </li>
+
+</ul>
+
+</div>
+
+<div class="slider">
+
+  <div id="slider" class="carousel slide carousel-fade"         data-ride="carousel">
+
+   <div class="carousel-inner">
+
+     <div class="carousel-item active">
+
+       <img style="width: 100%; height: 520px"src="https://images.unsplash.com/photo-1604298002502-5ca0b81c5f4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=70" class="d-block w-100" >
+
+    </div>
+
+     <div class="carousel-item active">
+
+       <img style="width: 100%; height: 500px"src="https://images.unsplash.com/photo-1574016614696-612e7b095f7c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1420&q=80" class="d-block w-100" >
+
+    </div>
+
+    <div class="carousel-item active">
+
+      <img style="width: 100%; height: 500px" src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=772&q=80" class="d-block w-100" >
+
+    </div>
+
+  </div>
+
+</div>
+
+  <ol class="carousel-indicators">
+
+   <li data-target="#slider" data-slide-to="0" class="active"></li>
+
+   <li data-target="#slider" data-slide-to="1"></li>
+
+   <li data-target="#slider" data-slide-to="2"></li>
+
+  </ol>
+
+ </div>
+
+</section>
+
+ 
+
+ <script>
+
+  function openmenu()
+
+  {
+
+   document.getElementById("side-menu").style.display="block";
+
+    document.getElementById("side-menu").style.display="none";
+
+    document.getElementById("side-menu").style.display="block";
+
+  }
+
+  function closemenu()
+
+  {
+
+   document.getElementById("side-menu").style.display="none";
+
+   document.getElementById("side-menu").style.display="block";
+
+   document.getElementById("side-menu").style.display="none";
+
+  }
+
+ </script>
+
+ <!------------------featured-categories------------->
+
+ <section class="featured-categories">
+
+  <div class="container">
+
+  <div class="row">
+
+  <div class="col-md-4">
+
+  <img style="width: 100%; height: 200px"src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60">
+
+  </div>
+
+  <div class="col-md-4">
+
+  <img style="width: 100%; height: 200px" src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+
+  </div>
+
+  <div class="col-md-4">
+
+  <img style="width: 100%; height: 200px" src="https://images.unsplash.com/photo-1512034705137-dc51c5ed36f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHdhdGNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+
+  </div>
+
+  </div>
+
+  </div>
+
+ </section>
+
+ <!----------On Sale Product------------------->
+
+<section class="on-sale">
+
+<div class="container">
+
+  <div class="title-box">
+
+<h2>On Sale</h2>
+
+  </div>
+
+<div class="alignRow">
+
+<div class="col-md-3">
+
+<div class="Product-top">
+
+<img src="https://images.unsplash.com/photo-1617317376997-8748e6862c01?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHdhdGNoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+
+       <div class="overlay-right">
+
+<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+
+<img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-black-and-white-eye-icon-image_1128482.jpg">
+
+</button>
+
+<button type="button" class="btn btn-secondary" title="Quick Shop">
+
+<img src="https://lh5.googleusercontent.com/proxy/oaa1RJLR7C4ZPQ_cpFeTR65iYI_yRhB5P_MHNf47cU0dtkyjANC1jZaDmKcgrWB7ToaTOLUwGsExkU24NEekpC0rg9IVY2KfIb4iPbE9XsXJNvDvNaJIUHodIVwMqMO6bUCKdC2a9pal36exFtoRmqA_z0dX6sjsyq-rAa8KX_aZ=s0-d">
+
+</button>
+
+<button type="button" class="btn btn-secondary" title="Add to Cart">
+
+<img src="https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-icon-shopping-cart-black-design.png">
+
+</button>
+
+       </div>
+
+</div>
+
+<div class="product-bottom text-center">
+
+<img style="width:100%; height:120px" src="https://cdn0.iconfinder.com/data/icons/star-ratings/100/four_half-512.png">
+
+<h3>Formal Watch</h3>
+
+<h5>$150.00</h5>
+
+    </div>
+
+    </div>
+
+  <div class="col-md-3">
+
+<div class="Product-top">
+
+<img src="https://images.unsplash.com/photo-1612945578381-6481cdd73b0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuZ2xlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+
+       <div class="overlay-right">
+
+<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+
+<img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-black-and-white-eye-icon-image_1128482.jpg">
+
+</button>
+
+<button type="button" class="btn btn-secondary" title="Quick Shop">
+
+<img src="https://lh5.googleusercontent.com/proxy/oaa1RJLR7C4ZPQ_cpFeTR65iYI_yRhB5P_MHNf47cU0dtkyjANC1jZaDmKcgrWB7ToaTOLUwGsExkU24NEekpC0rg9IVY2KfIb4iPbE9XsXJNvDvNaJIUHodIVwMqMO6bUCKdC2a9pal36exFtoRmqA_z0dX6sjsyq-rAa8KX_aZ=s0-d">
+
+</button>
+
+<button type="button" class="btn btn-secondary" title="Add to Cart">
+
+<img src="https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-icon-shopping-cart-black-design.png">
+
+</button>
+
+       </div>
+
+</div>
+
+<div class="product-bottom text-center">
+
+<img style="width:100%; height:120px" src="https://cdn0.iconfinder.com/data/icons/star-ratings/100/four_half-512.png">
+
+<h3>Bangles</h3>
+
+<h5>$150.00</h5>
+
+   </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--------------website-features---------->
+
+<section class="website-features">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-3 feature-box">
+
+<img src="https://media.gettyimages.com/vectors/one-hundred-100-icon-with-long-shadow-vector-id1058484104?s=612x612">
+
+<div class="feature-text">
+
+<p><b>100% original items</b>are available at company</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3 feature-box">
+
+<img src="https://c8.alamy.com/comp/2AGYRNK/linear-double-arrow-icon-in-four-direction-web-navigation-simple-outline-element-vector-illustration-on-white-background-2AGYRNK.jpg">
+
+<div class="feature-text">
+
+<p><b>Return within 30days</b>of receiving your order</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3 feature-box">
+
+<img src="data:image/jpeg;base64,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">
+
+<div class="feature-text">
+
+<p><b>get free delivery for every</b>ordre on more than prices</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3 feature-box">
+
+<img src="https://previews.123rf.com/images/seregasss435/seregasss4351803/seregasss435180300445/98317059-bank-credit-card-icon-black-color-in-circle-or-round-vector-illustration.jpg">
+
+<div class="feature-text">
+
+<p><b>pay online through multiple</b>option(cart payment/netbanking</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!------------------footer------------>
+
+<section class="footer">
+
+<div class="container text-center">
+
+<div class="row">
+
+<div class="col-md-3">
+
+<h1>UseFul Links</h1>
+
+<p>Privacy Policy</p>
+
+<p>Terms Of Use</p>
+
+<p>Return Policy</p>
+
+<p>Discount Coupons</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1>Company</h1>
+
+<p>About Us</p>
+
+<p>Contact Us</p>
+
+<p>Career</p>
+
+<p>Affilitate</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1>Follow Us On</h1>
+
+<p><i class="fa fa-facebook"></i> Facebook</p>
+
+<p><i class="fa fa-Youtube"></i> You Tube</p>
+
+<p><i class="fa fa-LinkedIn"></i> Linkedin</p>
+
+<p><i class="fa fa-Twitter"></i> Twitter</p>
+
+</div>
+
+<div class="col-md-3 footer-image">
+
+<h1>Download App</h1>
+
+<img src="https://i.pinimg.com/originals/e5/63/d9/e563d97183e6468f0f32f4a01c424e68.png">
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright"> Made With <i class="fa fa-heart-o"></i></p>
+
+</div>
+
+</body>
+
+</html>
